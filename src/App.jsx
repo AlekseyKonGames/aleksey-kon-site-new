@@ -6,7 +6,7 @@ function App() {
 
   return (
       <div className='App'>
-        <Header companyName={HeaderData.companyName} lang={HeaderData.lang} textProject={HeaderData.textProject}/>
+        <Header />
         <Home />
       </div>
   )

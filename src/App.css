@@ -29,7 +29,7 @@ main,p{
   @apply text-base mb-4;
 }
 .dark-button{
-  @apply  text-4xl font-medium duration-400 transform hover:scale-110 hover:rotate-45 active:rotate-90 filter hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)] ;
+  @apply text-4xl font-medium duration-300 transform hover:scale-110 hover:rotate-45 active:rotate-90 filter hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)] ;
 }
 .section {
   @apply max-w-[1100px] mx-auto p-8 rounded-[10px] bg-[#fff9ef] shadow-md transition-transform duration-300

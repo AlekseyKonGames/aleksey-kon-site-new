@@ -1,7 +1,7 @@
 const HeaderData = {
   companyName: "Aleksey Kon Games",
   lang: "RU",
-  title: "Проекты", 
+  textProject: "Проекты", 
 };
 
 export default HeaderData;
