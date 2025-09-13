@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+@custom-variant dark (&:where(.dark, .dark *));
+
+#root {
+  @apply min-h-screen font-['Roboto',sans-serif] leading-relaxed p-4 md:p-8 
+  bg-gradient-to-r from-[#eadac2] to-[#f7f5de];
+  @apply dark:[background-image:none] dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-800;
+}
+.App{
+  @apply min-h-screen;
+}
+body {
+  @apply   text-[#333] dark:text-white ;
+}
+
+h2{
+  @apply text-2xl font-extrabold mb-5;
+}
+h3{
+  @apply text-xl font-bold mb-3;
+}
+h4{
+  @apply text-lg font-bold mb-3;
+}
+main,p{
+  @apply text-base mb-4;
+}
+.dark-button{
+  @apply  text-4xl font-medium duration-400 transform hover:scale-110 hover:rotate-45 active:rotate-90 filter hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)] ;
+}
+.section {
+  @apply max-w-[1100px] mx-auto p-8 rounded-[10px] bg-[#fff9ef] shadow-md transition-transform duration-300
+  dark:bg-[#333] dark:shadow-xl dark:shadow-black/40
+  transform hover:-translate-y-1 mb-6;
+}
+.text-link{
+  @apply text-[#ff5722] inline-block transform transition-transform duration-300 hover:scale-105 hover:transform-[translateX(2px)] ;
+}
+.contacts{
+  @apply flex justify-center lg:justify-start items-center gap-3;
+}
+.icon-mini{
+  @apply w-11 h-11 transition-all duration-400 transform hover:scale-120 hover:rotate-6 filter hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)];
+}
+.icon-site{
+  @apply rounded-full inline-block w-11 sm:w-15 ml-2 transition-all duration-400 transform hover:scale-110 hover:rotate-6 filter hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)];
+}
+.icon-text{
+  @apply transition-all duration-400 transform hover:scale-110 filter  hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)];
+}
+.aleksey-img{
+  @apply  w-full md:w-[80%] md:mx-auto lg:w-xl rounded-2xl filter drop-shadow-[0px_0px_15px_rgba(0,0,0,0.3)];
+}
+.aleksey-img-mobile{
+  @apply w-32 rounded-full mx-auto mb-4 filter drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)];
+}
