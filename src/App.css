@@ -5,7 +5,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 #root {
-  @apply min-h-screen font-['Roboto',sans-serif] leading-relaxed p-4 md:p-8 
+  @apply min-h-screen font-['Roboto',sans-serif] leading-relaxed 
   bg-gradient-to-r from-[#eadac2] to-[#f7f5de];
   @apply dark:[background-image:none] dark:bg-gradient-to-r dark:from-gray-900 dark:to-gray-800;
 }
@@ -29,7 +29,8 @@ main,p{
   @apply text-base mb-4;
 }
 .dark-button{
-  @apply text-4xl font-medium duration-300 transform hover:scale-110 hover:rotate-45 active:rotate-90 filter hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)] ;
+  @apply text-4xl font-medium transition-all duration-300 transform filter
+  hover:scale-110 hover:rotate-45 active:rotate-90 hover:drop-shadow-[5px_5px_10px_rgba(0,0,0,0.3)];
 }
 .section {
   @apply max-w-[1100px] mx-auto p-8 rounded-[10px] bg-[#fff9ef] shadow-md transition-transform duration-300
