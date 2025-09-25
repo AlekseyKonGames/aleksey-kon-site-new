@@ -9,10 +9,11 @@ import { ProjectsSectionData } from "../data/ProjectsSectionData.js";
 export default function Home() {
   const { t: tCompany } = useTranslation('sectionCompany');
   const { t: tAbout } = useTranslation('sectionAbout');
+  const { t: tProjects } = useTranslation('sectionProjects');
   return (
     <>
       <AboutSection contacts={SectionCompanyData.contacts} t={tCompany}/>
-      <ProjectSection data={ProjectsSectionData} />
+      <ProjectSection data={ProjectsSectionData} t={tProjects}/>
       <AboutMe data={aboutMeData} />
       <AboutSection contacts={SectionAboutData.contacts} t={tAbout}/>
     </>

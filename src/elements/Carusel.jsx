@@ -33,10 +33,10 @@ export const Carusel = ({images}) => {
               </a>
             ))}
           </div>
-          <div className="absolute top-[40%] lg:top-[45%] z-[10] left-[2%] lg:left-[5%]">
+          <div className={`${images.length <= 1 ? 'hidden' : ''} absolute top-[40%] lg:top-[45%] z-[10] left-[2%] lg:left-[5%]`}>
             <ArrowButton isRight={false} onClick={prevSlide} />
           </div>
-          <div className="absolute top-[40%] lg:top-[45%] z-[10] right-[2%] lg:right-[5%]">
+          <div className={`${images.length <= 1 ? 'hidden' : ''} absolute top-[40%] lg:top-[45%] z-[10] right-[2%] lg:right-[5%]`}>
             <ArrowButton isRight={true} onClick={nextSlide} />
           </div>
         </div>
