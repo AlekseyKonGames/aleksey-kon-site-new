@@ -1,24 +1,29 @@
 {
 "projects": [
 {
-    "title": "ru Projects",
-    "description" : "1 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "Eva Platformer",
+    "description" : "Eva Platformer это игра в жанре платформер, где вам предстоит собирать монеты и ключи. В игре вы играете за главного персонажа Еву. Соберите все монеты и сразитесь с врагами.",
+    "textButton" : "Посмотреть в Steam"
 },
 {
-    "title": "ru Projects",
-    "description" : "2 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "AlekseyKonCrypt",
+    "description" : "AlekseyKonCrypt — это утилита шифрования в стиле Windows 11, предназначенная для шифрования небольших файлов с помощью многоуровневого процесса шифрования.",
+    "textButton" : "Посмотреть на Github"
 },
 {
-    "title": "ru Projects",
-    "description" : "3 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "Персонаж Алёна",
+    "description" : "Персонаж Алёна, а так же работа в spine 2d. Персонаж выполнен в аниме-стиле и состоит из множества слоёв. Для анимации используется скелетная структура с продуманной иерархией костей и настройкой весов.",
+    "textButton" : ""
 },
 {
-    "title": "ru Projects",
-    "description" : "4 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "Этот сайт",
+    "description" : "Этот сайт сделан с использованием React, js, i18next для поддержки многоязычности, tailwind css. Вёрстка выполнена с помощью CSS-модулей для обеспечения изоляции стилей.",
+    "textButton" : ""
+},
+{
+    "title": "HB Project",
+    "description" : "HB Project – это нереализованный проект, по Адскому Боссу. В рамках разработки было создано несколько анимированных персонажей, проработаны фоны и интерфейс меню.",
+    "textButton" : ""
 }
 ]
 }

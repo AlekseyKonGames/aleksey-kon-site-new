@@ -21,7 +21,7 @@ i18n
     },
     
     // Настройки неймспейсов
-    ns: ['header', 'footer','aboutMe','sectionCompany','sectionAbout','sectionProjects','projects'],
+    ns: ['header', 'footer','aboutMe','sectionCompany','sectionAbout','sectionProjects','projects','notFound'],
     defaultNS: 'header',
     
     // Автоопределение языка

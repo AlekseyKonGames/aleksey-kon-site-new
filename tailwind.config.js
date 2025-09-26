@@ -2,7 +2,22 @@
 export default {
   darkMode: 'class', // <=== обязательно 'class'
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slideInLeft: {
+          "0%": { transform: "translateX(-200px)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+        slideInRight: {
+          "0%": { transform: "translateX(200px)", opacity: "0" },
+          "100%": { transform: "translateX(0)", opacity: "1" },
+        },
+      },
+      animation: {
+        slideInLeft: "slideInLeft 1s ease-out forwards",
+        slideInRight: "slideInRight 1s ease-out forwards",
+      },
+    },
   },
   plugins: [],
 }

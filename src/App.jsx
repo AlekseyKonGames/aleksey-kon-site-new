@@ -4,7 +4,7 @@ import Home from './pages/home.jsx'
 import Projects from './pages/projects.jsx'
 import Header from './elements/header.jsx'
 import Footer from './elements/Footer.jsx'
-
+import { NotFound } from './pages/NotFound.jsx'
 function App() {
 
   return (
@@ -15,6 +15,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Router>
         </div>

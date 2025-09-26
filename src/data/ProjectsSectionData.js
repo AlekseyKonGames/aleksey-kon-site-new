@@ -7,4 +7,5 @@ export class ProjectsSectionData {
     "/images/projects/eva/eva2.webp",
     "/images/projects/eva/eva3.webp",
     ];
+    static href = "/projects";
 }

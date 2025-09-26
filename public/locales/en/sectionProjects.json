@@ -1,5 +1,9 @@
 {
-    "title": "Projects",
-    "description" : "lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "projects": [
+        {
+            "title": "Projects",
+            "description" : "Here you will find my projects: Eva Platformer, Aleksey Kon Crypt, this React site, and much more",
+            "textButton" : "View All Projects ..."
+        }
+    ]
 }

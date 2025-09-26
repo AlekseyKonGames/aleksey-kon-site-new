@@ -1,24 +1,29 @@
 {
 "projects": [
 {
-    "title": "Projects",
-    "description" : "1 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "Eva Platformer",
+    "description" : "Eva Platformer is a platformer game where you collect coins and keys. You play as the main character Eva. Gather all the coins and fight the enemies.",
+    "textButton" : "View on Steam"
 },
 {
-    "title": "Projects",
-    "description" : "2lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "AlekseyKonCrypt",
+    "description" : "AlekseyKonCrypt is a Windows 11–style encryption utility designed to encrypt small files using a multi-layered process.",
+    "textButton" : "View on Github"
 },
 {
-    "title": "Projects",
-    "description" : "3 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "Character Alyona",
+    "description" : "Character Alyona, as well as work in spine 2d. The character is made in anime style and consists of many layers. For animation is used skeletal structure with elaborate hierarchy of bones and adjustment of weights.",
+    "textButton" : ""
 },
 {
-    "title": "Projects",
-    "description" : "4 lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, odio praesentium. Aperiam culpa odio quas laborum ad quae asperiores eos?",
-    "textButton" : "View All Projects ..."
+    "title": "This Website",
+    "description" : "This website is built using React, js, i18next for multilingual support, and tailwind css. The layout is implemented using CSS modules to ensure style isolation.",
+    "textButton" : ""
+},
+{
+    "title": "HB Project",
+    "description" : "HB Project is an unrealized project, on Hellua Boss. As part of the development, several animated characters, backgrounds and menu interface were created.",
+    "textButton" : ""
 }
 ]
 }

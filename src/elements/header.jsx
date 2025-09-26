@@ -12,13 +12,13 @@ function Header() {
       <div className="container mx-auto flex justify-between items-center">
         <a href="/" className="flex items-center icon-text">
         <h1 className="hidden lg:block text-2xl font-extrabold ">{t('companyName')}</h1>
-        <img className="icon-site" src="images/icons/icon.webp" alt="Logo" />
+        <img className="icon-site" src="/images/icons/icon.webp" alt="Logo" />
         </a>
         <nav href="/" className="flex items-center space-x-6">
           <button onClick={toggleTheme}>
-            <img src="images/icons/sunicon.webp" alt="Light Mode" className="dark:hidden dark-button w-7 h-7 md:w-10 md:h-10"/>
+            <img src="/images/icons/sunicon.webp" alt="Light Mode" className="dark:hidden dark-button w-7 h-7 md:w-10 md:h-10"/>
           
-            <img src="images/icons/moonicon.webp" alt="Dark Mode" className="hidden dark:block dark-button w-7 h-7 md:w-10 md:h-10"/>
+            <img src="/images/icons/moonicon.webp" alt="Dark Mode" className="hidden dark:block dark-button w-7 h-7 md:w-10 md:h-10"/>
           </button>
           <button onClick={toggleLanguage}  className="dark:text-white text-gray-700 group flex items-center gap-3 font-medium transition-transform hover:scale-110 duration-300">
               <a className="dark-button">

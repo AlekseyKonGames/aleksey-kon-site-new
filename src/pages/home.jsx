@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <>
       <AboutSection contacts={SectionCompanyData.contacts} t={tCompany}/>
-      <ProjectSection data={ProjectsSectionData} t={tProjects}/>
+      <ProjectSection data={ProjectsSectionData} project={tProjects("projects.0", { returnObjects: true })}/>
       <AboutMe data={aboutMeData} />
       <AboutSection contacts={SectionAboutData.contacts} t={tAbout}/>
     </>

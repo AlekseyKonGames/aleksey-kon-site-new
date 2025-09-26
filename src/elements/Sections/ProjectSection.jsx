@@ -1,16 +1,16 @@
 import { ButtonWithIcon } from '../Buttons/ButtonWhisIcon';
 import { Carusel } from '../Carusel';
-export const ProjectSection = ({data, t}) => {
+export const ProjectSection = ({data, project}) => {
     return (<>
     <section className="project-section section">
         <div className="  px-6 md:px-0 pt-6 md:pt-0">
-            <h2 className='text-center'>{t('title')}</h2>
-            <p>{t('description')}</p>
+            <h2 className='text-center'>{project.title}</h2>
+            <p className='text-center'>{project.description}</p>
         </div>
         {data.images.length !== 0 && data.images !== undefined && (<Carusel images={data.images}/>)}
         <div className=" flex justify-center">
           {data.isButton === true && (
-            <ButtonWithIcon isIconButton={data.isIconButton} icon={data.icon} text={t('textButton')} href={"/projects"}/>
+            <ButtonWithIcon isIconButton={data.isIconButton} icon={data.icon} text={project.textButton} href={data.href}/>
           )}
         </div>
     </section>
