@@ -26,8 +26,8 @@ export const projectsData = [
     isButton: true,
     isIconButton: true,
     images: [
-      "/images/projects/crypt/crypt1.png",
-      "/images/projects/crypt/crypt2.png",
+      "/images/projects/crypt/crypt1.webp",
+      "/images/projects/crypt/crypt2.webp",
     ],
     icon: "/images/icons/github.webp",
     href: "https://github.com/Aleksey-Kon/Aleksey-Kon-Crypt"
@@ -46,8 +46,8 @@ export const projectsData = [
     isButton: false,
     isIconButton: false,
     images: [
-      "/images/projects/site/site1.png",
-      "/images/projects/site/site2.png",
+      "/images/projects/site/site1.webp",
+      "/images/projects/site/site2.webp",
     ],
     icon: ""
   }),

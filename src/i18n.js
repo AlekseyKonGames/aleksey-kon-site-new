@@ -12,8 +12,9 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    lng: getDefaultLanguage(),
     fallbackLng: getDefaultLanguage(),
-    debug: true,
+    debug: false,
     
     // Загрузка переводов
     backend: {
@@ -37,9 +38,7 @@ i18n
     
     // Обработка отсутствующих ключей
     saveMissing: true,
-    missingKeyHandler: (lng, ns, key) => {
-      console.warn(`Missing translation: ${key} in ${lng}/${ns}`);
-    },
+    
     
     // Опции загрузки
     load: 'currentOnly',
@@ -48,14 +47,6 @@ i18n
     supportedLngs: ['ru', 'en'],
     
   })
-  .then(() => {
-    console.log('i18n initialized successfully');
-    console.log('System language:', getSystemLanguage());
-    console.log('Default language:', getDefaultLanguage());
-    console.log('Current language:', i18n.language);
-  })
-  .catch((error) => {
-    console.error('i18n initialization failed:', error);
-  });
+  
 
 export default i18n;

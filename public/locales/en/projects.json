@@ -17,7 +17,7 @@
 },
 {
     "title": "This Website",
-    "description" : "This website is built using React, js, i18next for multilingual support, and tailwind css. The layout is implemented using CSS modules to ensure style isolation.",
+    "description" : "This website was developed using React.js. The i18next library is used to support multilingualism, and Tailwind CSS is used for styling. The project implements animations, light and dark theme switching, and basic routing between pages.",
     "textButton" : ""
 },
 {

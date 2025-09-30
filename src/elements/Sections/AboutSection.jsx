@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutSection = ({ contacts, t }) => {
+const AboutSection = ({direction = "left", contacts, t }) => {
   const renderContacts = () => {
     if (!contacts || contacts.length === 0) return null;
 
@@ -11,16 +11,17 @@ const AboutSection = ({ contacts, t }) => {
             <img 
               className="icon-mini" 
               src={c.src} 
-              alt={t(c.alt)} 
+              alt={c.alt} 
             />
           </a>
         ))}
       </div>
     );
   };
-
+  
+  const animationClass = direction === "left" ? "animate-slideInLeft" : "animate-slideInRight";
   return (
-    <section className="section">
+    <section className={`section ${animationClass}`}>
       <h2>{t('title')}</h2>
       <p dangerouslySetInnerHTML={{ __html: t('description') }} />
       {renderContacts()}

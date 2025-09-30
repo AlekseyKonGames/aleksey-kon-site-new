@@ -6,6 +6,7 @@ import AboutMe from "../elements/Sections/AboutMe.jsx";
 import { useTranslation } from 'react-i18next';
 import { ProjectSection } from "../elements/Sections/ProjectSection.jsx";
 import { ProjectsSectionData } from "../data/ProjectsSectionData.js";
+
 export default function Home() {
   const { t: tCompany } = useTranslation('sectionCompany');
   const { t: tAbout } = useTranslation('sectionAbout');
@@ -13,9 +14,9 @@ export default function Home() {
   return (
     <>
       <AboutSection contacts={SectionCompanyData.contacts} t={tCompany}/>
-      <ProjectSection data={ProjectsSectionData} project={tProjects("projects.0", { returnObjects: true })}/>
-      <AboutMe data={aboutMeData} />
-      <AboutSection contacts={SectionAboutData.contacts} t={tAbout}/>
+      <ProjectSection direction="right" data={ProjectsSectionData} project={tProjects("projects.0", { returnObjects: true })}/>
+      <AboutMe data={aboutMeData}/>
+      <AboutSection direction="right" contacts={SectionAboutData.contacts} t={tAbout}/>
     </>
   );
 }
