@@ -7,13 +7,17 @@ const getDefaultLanguage = () => {
   const systemLang = (navigator.language || navigator.userLanguage || '').split('-')[0];
   return systemLang === 'ru' ? 'ru' : 'en';
 };
+const getInitialLanguage = () => {
+  const savedLang = localStorage.getItem('i18nextLng'); 
+  return savedLang || getDefaultLanguage(); 
+};
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: getDefaultLanguage(),
-    fallbackLng: getDefaultLanguage(),
+    lng: getInitialLanguage(),
+    fallbackLng: getInitialLanguage(),
     debug: false,
     
     // Загрузка переводов
