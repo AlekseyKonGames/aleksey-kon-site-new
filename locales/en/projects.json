@@ -1,0 +1,29 @@
+{
+"projects": [
+{
+    "title": "Eva Platformer",
+    "description" : "Eva Platformer is a platformer game where you collect coins and keys. You play as the main character Eva. Gather all the coins and fight the enemies.",
+    "textButton" : "View on Steam"
+},
+{
+    "title": "AlekseyKonCrypt",
+    "description" : "AlekseyKonCrypt is a Windows 11–style encryption utility designed to encrypt small files using a multi-layered process.",
+    "textButton" : "View on Github"
+},
+{
+    "title": "Character Alyona",
+    "description" : "Character Alyona, as well as work in spine 2d. The character is made in anime style and consists of many layers. For animation is used skeletal structure with elaborate hierarchy of bones and adjustment of weights.",
+    "textButton" : ""
+},
+{
+    "title": "This Website",
+    "description" : "This website was developed using React.js. The i18next library is used to support multilingualism, and Tailwind CSS is used for styling. The project implements animations, light and dark theme switching, and basic routing between pages.",
+    "textButton" : ""
+},
+{
+    "title": "HB Project",
+    "description" : "HB Project is an unrealized project, on Hellua Boss. As part of the development, several animated characters, backgrounds and menu interface were created.",
+    "textButton" : ""
+}
+]
+}

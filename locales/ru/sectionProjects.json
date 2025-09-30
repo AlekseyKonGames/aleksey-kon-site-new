@@ -1,0 +1,9 @@
+{
+    "projects": [
+        {
+            "title": "Проекты",
+            "description" : "Здесь вы найдёте мои проекты: Eva Platformer, Aleksey Kon Crypt, этот сайт на React и многое другое",
+            "textButton" : "Посмотреть все проекты ..."
+        }
+    ]
+}
